@@ -12,7 +12,7 @@ buildscript {
     dependencies {
         // The Fabric Gradle plugin uses an open ended version to react
         // quickly to Android tooling updates
-        classpath 'com.tencent.mm:AndResGuard-gradle-plugin:1.2.16'
+        classpath 'com.tencent.mm:AndResGuard-gradle-plugin:1.2.18'
     }
 }
 
@@ -228,5 +228,7 @@ dependencies {
     //新手启动页面
     implementation 'com.stephentuso:welcome:1.4.1'
 
+    // https://mvnrepository.com/artifact/org.jetbrains/annotations
+    implementation 'org.jetbrains:annotations:20.1.0'
 
 }
